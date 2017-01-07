@@ -93,7 +93,7 @@ class ApacheLogReader {
 
 
 /* Read file line by line. */
-$file = new SplFileObject("access_log");
+$file = new SplFileObject("/your_path/access.log");
 
 while (!$file->eof()) {
     
