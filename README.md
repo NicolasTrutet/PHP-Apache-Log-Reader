@@ -1,6 +1,6 @@
 # PHP Apache log reader
 
-This php script allows you to retreive IP, date, HTTP method, HTTP resource and HTTP response from an apache access.log file. <br/>
+This php script allows you to retreive the IP, the date, the HTTP method, resource and response from an apache access.log file. <br/>
 
 
 
