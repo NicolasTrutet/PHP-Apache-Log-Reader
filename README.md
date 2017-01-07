@@ -6,7 +6,7 @@ This php script allows you to retreive the IP, the date, the HTTP method, resour
 $line = "127.0.0.1 - - [01/Jan/2016:12:31:34 +0000] "GET /index.php HTTP/1.1" 200 19045"
 $infos = ApacheLogReader::getInfos($line, true);
 
-//getInfos() will return the following array.
+/* getInfos() will return the following array. */
 [
   "ip" => "127.0.0.1",
   "date" => "1451651503",
